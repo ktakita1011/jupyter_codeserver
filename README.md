@@ -5,7 +5,8 @@ also jupyter notebook 127.0.0.1:8888
 
 # How to Use
 ```docker build -t notebook```  
-```docker run -p 8888:8888 -p8080:8080 -v workdir:/workdir -d notebook```
+```docker run -p 8888:8888 -p 8080:8080 -v /${PWD}:/workdir -d notebook```
+
 # Caution
 Init jupyter password is null. So if you use set password.
 code-server init password is 'password'
