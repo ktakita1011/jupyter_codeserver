@@ -1,0 +1,10 @@
+version: "3"
+services:
+  jupyter:
+    build: .
+    volumes:
+      - .:/workdir
+    working_dir: /workdir
+    ports:
+      - "18888:8888"
+      - "18080:8080"

@@ -8,8 +8,8 @@ https://hub.docker.com/r/ktakita1011/simple_jupyter_codeserver
 # How to Use
 ``` git clone https://github.com/ktakita1011/jupyter_codeserver.git```  
 ``` cd jupyter_codeserver```  
-```docker build -t notebook .```  
-```docker run -p 8888:8888 -p 8080:8080 -v /${PWD}:/workdir --name notebook notebook```
+```docker-compose build```  
+```docker-compose up -d```
 
 # Caution
 Init jupyter password is null. So if you use set password.  
