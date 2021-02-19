@@ -12,7 +12,7 @@ https://hub.docker.com/r/ktakita1011/simple_jupyter_codeserver
 ```docker-compose up -d```
 
 # Caution
-Init jupyter password is null. So if you use set password.  
+Init jupyter password is null. So if you use, set password.  
 code-server init password is 'password'  
 To change jupyter password, edit `Dockerfile`  
 To change code-server password, edit `run.sh`
