@@ -13,7 +13,7 @@ https://hub.docker.com/r/ktakita1011/simple_jupyter_codeserver
 
 # Caution
 Init jupyter password is null. So if you use, set password.  
-code-server init password is 'password'  
+code-server init password is 'jupyter'  
 To change jupyter password, edit `Dockerfile`  
 To change code-server password, edit `run.sh`
 
